@@ -41,6 +41,7 @@
             this.lb_destination = new System.Windows.Forms.TextBox();
             this.textBox2 = new System.Windows.Forms.TextBox();
             this.lb_DesiredTime = new System.Windows.Forms.Label();
+            this.btn_SubmitRideRequest = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // lb_title
@@ -148,11 +149,21 @@
             this.lb_DesiredTime.TabIndex = 10;
             this.lb_DesiredTime.Text = "Desired Time of Arrival";
             // 
+            // btn_SubmitRideRequest
+            // 
+            this.btn_SubmitRideRequest.Location = new System.Drawing.Point(272, 294);
+            this.btn_SubmitRideRequest.Name = "btn_SubmitRideRequest";
+            this.btn_SubmitRideRequest.Size = new System.Drawing.Size(285, 37);
+            this.btn_SubmitRideRequest.TabIndex = 12;
+            this.btn_SubmitRideRequest.Text = "Submit Ride Request";
+            this.btn_SubmitRideRequest.UseVisualStyleBackColor = true;
+            // 
             // form_Rider
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.btn_SubmitRideRequest);
             this.Controls.Add(this.textBox2);
             this.Controls.Add(this.lb_DesiredTime);
             this.Controls.Add(this.lb_destination);
@@ -185,5 +196,6 @@
         private System.Windows.Forms.TextBox lb_destination;
         private System.Windows.Forms.TextBox textBox2;
         private System.Windows.Forms.Label lb_DesiredTime;
+        private System.Windows.Forms.Button btn_SubmitRideRequest;
     }
 }
