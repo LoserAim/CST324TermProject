@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace CST324_TermProject_RideShare
 {
-    public partial class Form1 : Form
+    public partial class form_Admin : Form
     {
-        public Form1()
+        public form_Admin()
         {
             InitializeComponent();
         }
