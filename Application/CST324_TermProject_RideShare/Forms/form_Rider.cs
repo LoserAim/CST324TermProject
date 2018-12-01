@@ -20,6 +20,10 @@ namespace CST324_TermProject_RideShare
         public form_Rider()
         {
             InitializeComponent();
+            _dbContext = new OIT_RideShare();
+            rider = new Rider();
+            user = new User();
+            request = new RideRequest();
         }
 
         private void label1_Click(object sender, EventArgs e)
