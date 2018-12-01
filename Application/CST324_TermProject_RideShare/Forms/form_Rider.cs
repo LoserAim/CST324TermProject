@@ -42,6 +42,10 @@ namespace CST324_TermProject_RideShare
                 _dbContext.RideRequests.Add(request);
                 _dbContext.Riders.Add(rider);
                 _dbContext.Users.Add(user);
+                _dbContext.SaveChanges();
+                this.Hide();
+                form_register fr = new form_register();
+                fr.ShowDialog();
             }
 
         }
