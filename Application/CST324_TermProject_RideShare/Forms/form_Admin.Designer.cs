@@ -28,6 +28,9 @@
         /// </summary>
         private void InitializeComponent()
         {
+
+
+
             this.listb_Users = new System.Windows.Forms.ListBox();
             this.listb_Requests = new System.Windows.Forms.ListBox();
             this.button1 = new System.Windows.Forms.Button();
@@ -182,11 +185,17 @@
             this.btn_Finish.Text = "Finish";
             this.btn_Finish.UseVisualStyleBackColor = true;
             // 
+
             // form_Admin
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+
+            this.Name = "form_Admin";
+            this.Text = "form_Admin";
+            this.ResumeLayout(false);
+
             this.Controls.Add(this.btn_Finish);
             this.Controls.Add(this.lb_Details_Requests);
             this.Controls.Add(this.tb_Details_Requests);
@@ -206,6 +215,7 @@
             this.Text = "form_Admin";
             this.ResumeLayout(false);
             this.PerformLayout();
+
 
         }
 
