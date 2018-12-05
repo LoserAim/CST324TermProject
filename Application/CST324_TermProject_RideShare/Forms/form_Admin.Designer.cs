@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+<<<<<<< HEAD
             this.listb_Users = new System.Windows.Forms.ListBox();
             this.listb_Requests = new System.Windows.Forms.ListBox();
             this.button1 = new System.Windows.Forms.Button();
@@ -218,28 +219,14 @@
             this.Controls.Add(this.listb_Users);
             this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.Name = "form_Admin";
+=======
+            this.components = new System.ComponentModel.Container();
+            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.ClientSize = new System.Drawing.Size(800, 450);
+>>>>>>> parent of abdf158... Merge pull request #3 from LoserAim/Cool;beans
             this.Text = "form_Admin";
-            this.ResumeLayout(false);
-            this.PerformLayout();
-
         }
 
         #endregion
-
-        private System.Windows.Forms.ListBox listb_Users;
-        private System.Windows.Forms.ListBox listb_Requests;
-        private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.Button btn_Rider_Delete;
-        private System.Windows.Forms.Button btn_Rider_Add;
-        private System.Windows.Forms.Button btn_Requests_Add;
-        private System.Windows.Forms.Button btn_Requests_Delete;
-        private System.Windows.Forms.Button btn_Requests_Update;
-        private System.Windows.Forms.TextBox tb_Details_User;
-        private System.Windows.Forms.Label lb_List_Users;
-        private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.Label lb_List_Requests;
-        private System.Windows.Forms.Label lb_Details_Requests;
-        private System.Windows.Forms.TextBox tb_Details_Requests;
-        private System.Windows.Forms.Button btn_Finish;
     }
 }
