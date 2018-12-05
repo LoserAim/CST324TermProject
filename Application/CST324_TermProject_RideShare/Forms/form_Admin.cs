@@ -15,10 +15,6 @@ namespace CST324_TermProject_RideShare
         public form_Admin()
         {
             InitializeComponent();
-        }
-
-        private void btn_Rider_Add_Click(object sender, EventArgs e)
-        {
 
         }
     }

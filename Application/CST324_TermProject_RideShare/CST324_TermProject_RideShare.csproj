@@ -86,15 +86,14 @@
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Models\User.cs" />
-<<<<<<< HEAD
+
     <EmbeddedResource Include="Forms\form_Admin.resx">
       <DependentUpon>form_Admin.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Forms\form_register.resx">
       <DependentUpon>form_register.cs</DependentUpon>
     </EmbeddedResource>
-=======
->>>>>>> parent of abdf158... Merge pull request #3 from LoserAim/Cool;beans
+
     <EmbeddedResource Include="Forms\form_Rider.resx">
       <DependentUpon>form_Rider.cs</DependentUpon>
     </EmbeddedResource>
