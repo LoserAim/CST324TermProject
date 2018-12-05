@@ -85,23 +85,13 @@
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-<<<<<<< HEAD
-    <EmbeddedResource Include="Forms\form_Admin.resx">
-      <DependentUpon>form_Admin.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Forms\form_Driver.resx">
-      <DependentUpon>form_Driver.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Forms\form_register.resx">
-      <DependentUpon>form_register.cs</DependentUpon>
-=======
+
     <Compile Include="Models\User.cs" />
     <EmbeddedResource Include="Forms\form_Rider.resx">
       <DependentUpon>form_Rider.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\201811282311581_Initial Migration.resx">
       <DependentUpon>201811282311581_Initial Migration.cs</DependentUpon>
->>>>>>> master
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
