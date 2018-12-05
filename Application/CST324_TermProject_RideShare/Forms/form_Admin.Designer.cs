@@ -28,11 +28,6 @@
         /// </summary>
         private void InitializeComponent()
         {
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-
-
 
             this.listb_Users = new System.Windows.Forms.ListBox();
             this.listb_Requests = new System.Windows.Forms.ListBox();
@@ -219,25 +214,11 @@
             this.ResumeLayout(false);
             this.PerformLayout();
 
-
-=======
+            
             this.components = new System.ComponentModel.Container();
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
             this.Text = "form_Admin";
->>>>>>> parent of 15c5642... implemented the gui for register and driver
-=======
-            this.components = new System.ComponentModel.Container();
-            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Text = "form_Admin";
->>>>>>> parent of 15c5642... implemented the gui for register and driver
-=======
-            this.components = new System.ComponentModel.Container();
-            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Text = "form_Admin";
->>>>>>> parent of 15c5642... implemented the gui for register and driver
         }
 
         #endregion
