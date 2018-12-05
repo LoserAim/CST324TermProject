@@ -85,9 +85,7 @@
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
+
 
     <Compile Include="Models\User.cs" />
     <EmbeddedResource Include="Forms\form_Admin.resx">
@@ -99,12 +97,6 @@
     <EmbeddedResource Include="Migrations\201811282311581_Initial Migration.resx">
       <DependentUpon>201811282311581_Initial Migration.cs</DependentUpon>
     </EmbeddedResource>
-=======
->>>>>>> parent of 15c5642... implemented the gui for register and driver
-=======
->>>>>>> parent of 15c5642... implemented the gui for register and driver
-=======
->>>>>>> parent of 15c5642... implemented the gui for register and driver
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
