@@ -12,12 +12,11 @@ namespace CST324_TermProject_RideShare
 {
     public partial class form_register : Form
     {
-        private string password = "cst3242018";
         public form_register()
         {
-           // pictureBox1.SizeMode = PictureBoxSizeMode.AutoSize;
             InitializeComponent();
         }
+<<<<<<< HEAD
 
         private void form_register_Load(object sender, EventArgs e)
         {
@@ -107,4 +106,7 @@ namespace CST324_TermProject_RideShare
             rf.ShowDialog();
         }
     }
+=======
+>>>>>>> parent of 4728aa6... Merge branch 'master' into Cool;beans
     }
+}

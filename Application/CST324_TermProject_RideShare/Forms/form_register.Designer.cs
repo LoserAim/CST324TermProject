@@ -29,6 +29,7 @@
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
+<<<<<<< HEAD
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.title_lb = new System.Windows.Forms.Label();
             this.rider_btn = new System.Windows.Forms.Button();
@@ -168,27 +169,14 @@
             this.Controls.Add(this.pictureBox1);
             this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.Name = "form_register";
+=======
+            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.ClientSize = new System.Drawing.Size(800, 450);
+>>>>>>> parent of 4728aa6... Merge branch 'master' into Cool;beans
             this.Text = "Form1";
-            this.Load += new System.EventHandler(this.form_register_Load);
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.register_ep)).EndInit();
-            this.ResumeLayout(false);
-            this.PerformLayout();
-
         }
 
         #endregion
-
-        private System.Windows.Forms.PictureBox pictureBox1;
-        private System.Windows.Forms.Label title_lb;
-        private System.Windows.Forms.Button rider_btn;
-        private System.Windows.Forms.Button driver_btn;
-        private System.Windows.Forms.Button admin_btn;
-        private System.Windows.Forms.Label loginQuestion_lb;
-        private System.Windows.Forms.TextBox register_tb;
-        private System.Windows.Forms.Button enter_btn;
-        private System.Windows.Forms.Button back_btn;
-        private System.Windows.Forms.ErrorProvider register_ep;
     }
 }
 

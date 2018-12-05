@@ -200,9 +200,13 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+<<<<<<< HEAD
 
             this.ClientSize = new System.Drawing.Size(800, 450);
 
+=======
+            this.ClientSize = new System.Drawing.Size(800, 450);
+>>>>>>> parent of 4728aa6... Merge branch 'master' into Cool;beans
             this.Controls.Add(this.btn_Finish);
             this.Controls.Add(this.lb_Details_Requests);
             this.Controls.Add(this.tb_Details_Requests);
