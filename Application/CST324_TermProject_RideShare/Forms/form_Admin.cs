@@ -74,5 +74,10 @@ namespace CST324_TermProject_RideShare
                                 + "\nAdmin: " + user.Admin.ToString()
                                 + "\nLocation: " + user.Location.ToString();
         }
+
+        private void btn_Rider_Add_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

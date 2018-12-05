@@ -83,7 +83,13 @@ namespace CST324_TermProject_RideShare
                 {
                     e.Cancel = true;
                     register_tb.Focus();
-                    register_ep.SetError(register_tb, "Inncorrect Password");
+                    register_ep.SetError(register_tb, "Incorrect Password");
+                }
+                else
+                {
+                    this.Hide();
+                    Form rf = new form_Admin();
+                    rf.ShowDialog();
                 }
 
             } else
@@ -92,6 +98,13 @@ namespace CST324_TermProject_RideShare
 
 
             }
+        }
+
+        private void rider_btn_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            Form rf = new form_Rider();
+            rf.ShowDialog();
         }
     }
     }
